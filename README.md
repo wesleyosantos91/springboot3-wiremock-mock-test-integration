@@ -1,7 +1,7 @@
 <div align="center">
 
   <img src="assets/logo.png" alt="logo" width="200" height="auto" />
-  <h1>JVM</h1>
+  <h1>Adeus, Dependências Externas! Crie Testes de Integração Eficientes com Spring Boot e WireMock</h1>
   
 <!-- Badges -->
 <p>
