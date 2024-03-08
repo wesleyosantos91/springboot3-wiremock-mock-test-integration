@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "currentPage": 1,
+    "itemsPerPage": 1,
+    "totalOfItems": 1,
+    "totalOfPages": 1
+  },
+  "result": {
+    "street": "Quadra 3 Projeção 3",
+    "complement": "",
+    "district": "Setor Central (Gama)",
+    "districtId": 40394,
+    "city": "Brasília",
+    "cityId": 3720,
+    "ibgeId": 5300108,
+    "state": "Distrito Federal",
+    "stateShortname": "DF",
+    "zipcode": "72405033"
+  }
+}
