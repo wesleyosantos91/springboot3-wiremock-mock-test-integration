@@ -3,6 +3,7 @@ package io.github.wesleyosantos91.controller;
 import io.github.wesleyosantos91.domain.response.Root;
 import io.github.wesleyosantos91.service.CepService;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -11,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public record EnderecoController(CepService service) {
 
     @GetMapping("/{cep}")
-    public Root findByCep(String cep) {
+    public Root findByCep(@PathVariable String cep) {
         return service.findByCep(cep);
     }
 }

@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 @FeignClient(name = "cepClient", url = "${cep.url}")
 public interface CepClient {
 
-
     @GetMapping("/api/v1/zipcode/{cep}")
     Root findByCep(@PathVariable("cep") String cep);
 }
